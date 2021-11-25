@@ -1,10 +1,11 @@
 # Мои Истории
-
-1. <code>git clone https://github.com/irgashevsardor/moi-istorii.git</code>
-2. <code>cd ./moi-istorii</code>
-3. Установить виртуальное окружение (Пример на линуксе: <code>python3 -m venv venv</code>)
-4. <code>pip install -r requirements.txt</code>
-5. <code>./manage.py makemigrations</code>
-6. <code>./manage.py migrate</code>
+Для коллаборации:
+1. Делаем fork настоящего репозитория
+2. Клонируем репозиторий к себе на локальный компьютер
+3. <code>cd ./moi-istorii</code>
+4. Устанавливаем виртуальное окружение (Пример на линуксе: <code>python3 -m venv venv</code>)
+5. <code>pip install -r requirements.txt</code>
+6. <code>./manage.py makemigrations</code>
+7. <code>./manage.py migrate</code>
 <br>
 Готово! Можем начинать.
