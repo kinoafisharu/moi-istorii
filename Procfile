@@ -1,1 +1,1 @@
-web: gunicorn mystories.wsgi
+web: gunicorn config.wsgi
