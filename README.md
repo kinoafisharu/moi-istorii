@@ -8,7 +8,7 @@
 6. Комментируем 90, 91 строки в settings.py 
         <br><code>#import dj_database_url</code>
         <br><code>#DATABASES['default'] = dj_database_url.config(conn_max_age=600)</code>
-7. <code>./manage.py makemigrations</code>
-8. <code>./manage.py migrate</code>
+7. <code>./manage.py migrate</code>
+8. <code>./manage.py runserver</code>
 <br>
 Готово! Можем начинать.
